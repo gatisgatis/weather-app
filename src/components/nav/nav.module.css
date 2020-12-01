@@ -1,0 +1,42 @@
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 2.5px;
+    z-index: 2; 
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoWrapper {
+    width: 10%;
+    display:flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.logo{
+    width: 100%;
+}
+
+.navItem {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.navItem.active {
+    color: rgb(76, 69, 179);
+    text-shadow: 1px 1px #bbe4ff;
+}

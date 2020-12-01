@@ -1,0 +1,67 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 54%;
+    line-height: 0;
+    border: 2px solid blue;
+    border-radius: 15px;
+    transform: scale(0.6);
+    transition: transform 1s;
+    z-index: 2;
+}
+
+.wrapper:hover {
+    transform: scale(1);
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.city {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.8;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.city:hover {
+    font-size: 18px;
+    opacity: 1;
+}
+
+.city::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.imgWrapper {
+    display: none;
+    position: absolute;
+    top: 15px;
+    width: 150px;
+    max-height: 80px;
+    border: 1px solid black; 
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.city:hover > .imgWrapper {
+    display: block;
+}
+
+.img {
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+.heading1 {
+    position: relative;
+    font-size: 80px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.heading2 {
+    font-size: 50px;
+    line-height: 1.2;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 100%;
+}
+
+.heading3 {
+    font-size: 30px;
+    line-height: 1.1;
+    margin: 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+.heading1 a, .heading2 a, .heading3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
