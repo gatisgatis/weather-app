@@ -1,1 +1,1 @@
-Strukturēts un ar biežāk lietotajiem dependencies. Gatavs lietošanai
+https://gatisgatis.github.io/weather-app/
