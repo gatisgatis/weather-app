@@ -60,8 +60,7 @@ export const City = () => {
         setFail(
           `Something wrong with data request for ${name}. Click Home and try again or choose another city.`
         )
-      )
-      .finally(() => setLoading(true));
+      );
   }, []);
 
   useEffect(() => {
